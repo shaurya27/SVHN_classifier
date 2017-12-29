@@ -7,6 +7,7 @@ Experiment with SVHN dataset
 * I started with the basic model and make other models by adding layers/regularization to my basic model.
 ## 2. Using Data Augmentation
 * In this notebook, I tried a Data Augmentation with the model (model5) which gives me the best performance in my previous experiment.
+* Augmentation makes it harder to memorize the data and get high training scores,that's it's purpose. So getting a higher test accuracy than training accuracy isn't a bad sign.
 ## 3. K-fold evaluation
 * In this notebook, I tried to evaluate my CNN architecture(model5) by using startifie-k-fold.
 ## 4. Using Transfer- learning
